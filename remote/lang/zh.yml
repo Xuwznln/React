@@ -1,0 +1,40 @@
+base:
+  command:
+    help:
+      map: 可视化图形监控(以地图呈现)
+      cpu-score: 计算你的CPU得分
+      guess-memory: 猜测服务器所需内存大小
+      monitoring: 启用title命令呈现监控内容
+      reload: 重新加载所有配置文件
+      status: 以书的方式发送插件React找到的服务器问题
+      lang: 更改或列出插件语言
+      version: 检查版本更新
+      guess: 猜测服务器运算能力
+      query: 查询插件信息
+      servers: 列出此网络上的所有服务器数据
+      help: 以书的方式发送插件React的帮助
+  message:
+    update-found: 更新未找到
+    action:
+      fully-automatic: '%s 自动处理中'
+      manual:
+        finished: '手动操作： %s 完成了 %s'
+        started: '手动操作： %s 正在运行中'
+      stabilizing: '%s: Stabilizing...'
+      fixed: '%s: 修复完成！'
+    sided:
+      ingame: 你必须以玩家身份执行此指令
+      console: 你必须以控制台身份执行此指令
+    insufficient-permission: 缺少足够的权限
+    monitoring:
+      enabled: 开启服务器实时监控
+      disabled: 关闭服务器实时监控
+    internal:
+      reloaded: ' v%s 重载成功'
+    mapping:
+      disabled: 地图实时监控关闭
+      enabled: 地图实时监控开启
+language:
+  name: Chinese
+  code: zh
+#HAVN'T FINISHED YET
